@@ -1,0 +1,127 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }  
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 12px 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 100px;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top {
+    
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.textbox {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 12px 0px;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    padding: 4px 24px;
+    flex: auto;
+    width: 60px;
+    flex: 0 0 auto;
+}
+
+.larry1 {
+    max-width: 33%;
+    height: auto;
+}
+
+.cardsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardtitle {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 16px;
+}
+
+.cards {
+    display: flex;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882f6;
+    width: 100px;
+    height: 100px;
+}
+
+.cardsub1,
+.cardsub2,
+.cardsub3,
+.cardsub4 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.cards {
+
+    display: flex;
+    gap: 50px;
+    
+}
+
+.allcard1,
+.allcard2,
+.allcard3,
+.allcard4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
