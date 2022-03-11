@@ -61,10 +61,11 @@ body {
     color: white;
     border-radius: 5px;
     display: flex;
-    padding: 4px 24px;
+    padding: 8px 24px;
     flex: auto;
     width: 60px;
     flex: 0 0 auto;
+    font-weight: bold;
 }
 
 .larry1 {
@@ -87,6 +88,8 @@ body {
 
 .cards {
     display: flex;
+    padding-top: 25px;
+    padding-bottom: 100px;
 }
 .card1,
 .card2,
@@ -96,16 +99,16 @@ body {
     border-style: solid;
     border-width: 3px;
     border-color: #3882f6;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .cardsub1,
 .cardsub2,
 .cardsub3,
 .cardsub4 {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 
@@ -124,4 +127,60 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.quotesection {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 200px;
+}
+
+.quotetext {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.attribution {
+    font-weight: bolder;
+    text-align: right;
+    font-size: 24px;
+}
+
+.ctasection {
+    margin: 100px;
+}
+
+.ctabox {
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 100px;
+}
+
+.ctatitle {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ctabutton {
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    display: flex;
+    padding: 8px 24px;
+    flex: auto;
+    width: 60px;
+    flex: 0 0 auto;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 24px;
 }
